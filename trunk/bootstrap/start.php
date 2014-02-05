@@ -58,6 +58,8 @@ $framework = $app['path.base'].'/vendor/laravel/framework/src';
 
 require $framework.'/Illuminate/Foundation/start.php';
 
+Blade::setContentTags("<%", "%>");
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
