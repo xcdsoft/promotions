@@ -110,11 +110,11 @@
     </div>
 </div>
 <% HTML::script("js/excanvas.min.js")%>
-<% HTML::script("http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")%>
-<% HTML::script("http://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js")%>
+<% HTML::script("js/jquery.min.js")%>
+<% HTML::script("js/angular.min.js")%>
 <% HTML::script("js/controllers/campaign/create.js")%>
 <% HTML::script("js/jquery.ui.custom.js")%>
-<% HTML::script("http://netdna.bootstrapcdn.com/bootstrap/2.3.0/js/bootstrap.min.js")%>
+<% HTML::script("js/bootstrap.min.js")%>
 <% HTML::script("js/jquery.peity.min.js")%>
 <% HTML::script("js/fullcalendar.min.js")%>
 <% HTML::script("js/bootstrap-datepicker.js")%>
